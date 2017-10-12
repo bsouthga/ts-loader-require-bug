@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "lib": ["es6", "dom"],
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@lib/*": ["./deep/src/lib/*"]
+    }
+  },
+  "include": [
+    "./**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
